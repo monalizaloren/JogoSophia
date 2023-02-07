@@ -4,7 +4,7 @@ const Bodies = Matter.Bodies;
 const Constraint = Matter.Constraint;
 
 function preload() {
-    ///???
+    backgroundImg = loadImage("./assets/???");
   }
   function setup() {
     canvas = createCanvas(1200,600);
